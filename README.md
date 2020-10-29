@@ -49,6 +49,10 @@ Test environment
 1. Test.cs と WinRPiSerial.cs を配置
 1. Test.cs 内の Mainメソッド を実行
 
+**(vscodeを使用したプロジェクトの作成例)**
+- [.NET Core Consoleアプリケーションの作成方法](https://docs.microsoft.com/ja-jp/dotnet/core/tutorials/with-visual-studio-code)を参照  
+- vscodeのターミナルで'''dotnet add package System.IO.Ports''' でパッケージをインストール
+
 **Raspberry Pi**
 1. ```pip install pyserial```でpySerialをインストール
 1. Preference > Raspberry Pi Configuration > Interfaces > Serial Port: を Enable に設定
